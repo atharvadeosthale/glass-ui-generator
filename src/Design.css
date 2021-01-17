@@ -1,0 +1,14 @@
+.design {
+  flex: 0.5;
+  background-image: url("https://www.freevector.com/uploads/vector/preview/30339/Abstract_Colorful_Background.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.design__box {
+  height: 500px;
+  width: 500px;
+  border-radius: 30px;
+}
