@@ -10,6 +10,7 @@ function Design({ blur, color, borderRadius }) {
           backdropFilter: `blur(${blur}px)`,
           backgroundColor: `rgba(${color.r},${color.g},${color.b},${color.a})`,
           borderRadius: borderRadius,
+          WebkitBackdropFilter: `blur(${blur}px)`,
         }}
       ></div>
     </div>
