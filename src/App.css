@@ -12,3 +12,8 @@
   justify-content: center;
   background-color: aliceblue;
 }
+
+.app__control {
+  display: flex;
+  align-items: center;
+}
