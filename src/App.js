@@ -40,6 +40,10 @@ function App() {
             onChangeComplete={(color) => setColor(color.rgb)}
           />
         </div>
+        <textarea
+          className="app__code"
+          value={`backdrop-filter: blur(${blur}px);\n--webkit-backdrop-filter: blur(${blur}px);\n--moz-backdrop-filter: blur(${blur}px);\nbackground-color: rgba(${color.r}, ${color.g}, ${color.b}, ${color.a});\nborder-radius: ${borderRadius}px;`}
+        ></textarea>
       </div>
       <Design blur={blur} color={color} borderRadius={borderRadius} />
     </div>
